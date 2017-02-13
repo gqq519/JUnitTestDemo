@@ -58,7 +58,7 @@ public class EasyShopClientTest {
 
     @Test
     public void login() throws Exception {
-        Call call = mClient.login("123456", "123456");
+        Call call =  mClient.login("123456", "123456");
         Response response = call.execute();
         assertNull(response.body());
     }
